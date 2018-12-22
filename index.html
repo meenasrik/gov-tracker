@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gov Track</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="overlay">
+    <div class="close-overlay">
+      <i class="fa fa-window-close fa-3x" aria-hidden="true"></i>
+    </div>
+    <div class="overlay-container container"></div>
+  </div>
+
+  <div class="container">
+    <h1 class="bills">Bills
+    Introduced by the <input class="congress-number" type="number" name="congress-number" value="115" max="115" min="1" step="1"><span class="congress-number-label">th</span> Congress
+    </h1>
+  </div>
+  <div class="bills-container container"></div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="config.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

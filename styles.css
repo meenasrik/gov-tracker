@@ -1,0 +1,74 @@
+body {
+  font-family: "Noto Serif JP", sans-serif;
+}
+
+.overlay {
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: scroll;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+}
+
+.close-overlay {
+  position: absolute;
+  top: -4px;
+  right: -1px;
+}
+
+.active {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.congress-number {
+  background: none;
+  border: none;
+  font-size: 35px;
+  border-bottom: 1px solid #acacac;
+}
+
+.bill {
+  border-radius: 2px;
+  margin-bottom: 30px;
+  padding: 30px;
+  box-shadow: 0 1px 4px #acacac;
+}
+
+.bill h2 {
+  font-size: 18px;
+}
+
+.bill h3 {
+  font-size: 15px;
+}
+
+.sponsor {
+  border-bottom: 2px solid blue;
+  padding-bottom: 2px;
+}
+
+.sponsor:hover {
+  cursor: pointer;
+}
+
+.info {
+  border: none;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info td {
+  font-size: 25px;
+  text-align: left;
+  padding: 15px 20px;
+}
